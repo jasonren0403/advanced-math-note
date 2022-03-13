@@ -1,0 +1,21 @@
+# used with atom.io, fast snippets
+
+'.text.md':
+  'Aligned multiline math equation with no number':
+    'prefix': 'math.equation'
+    'body': """
+    $$
+    \\\\begin{align*}
+    ${1:<equation>}
+    \\\\end{align*}
+    $$
+    """
+  'Limit to positive infinity':
+    'prefix': 'math.inf.positive'
+    'body': '\\\\lim_{x \\\\to +\\\\infty}'
+  'Limit to negative infinity':
+    'prefix': 'math.inf.negative'
+    'body': '\\\\lim_{x \\\\to -\\\\infty}'
+  'derivate of...':
+    'prefix': 'math.deriv.x'
+    'body': '\\\\mathrm d${1:<variable>}'
