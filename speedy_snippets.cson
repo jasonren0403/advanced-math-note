@@ -1,4 +1,5 @@
 # used with atom.io, fast snippets
+# For test, copy it to File > Snippets
 
 '.text.md':
   'Aligned multiline math equation with no number':
@@ -27,8 +28,8 @@
     """
   'Denominator':
     'prefix': 'math.denominator'
-    'body': """\\left | \\begin{matrix}
-    ${1:ele} & ${2:ele} \\\\
-    ${3:ele} & ${4:ele} \\\\
-    \\end{matrix} \\right |
+    'body': """\\\\left | \\\\begin{matrix}
+    ${1:ele} & ${2:ele} \\\\\\\\
+    ${3:ele} & ${4:ele} \\\\\\\\
+    \\\\end{matrix} \\\\right |
     """
