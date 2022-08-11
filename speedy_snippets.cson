@@ -19,3 +19,16 @@
   'derivate of...':
     'prefix': 'math.deriv.x'
     'body': '\\\\mathrm d${1:<variable>}'
+  'grouped equation':
+    'prefix': 'math.group'
+    'body': """\\\\begin{cases}
+    ${1:<group_of_equations>}
+    \\\\end{cases}
+    """
+  'Denominator':
+    'prefix': 'math.denominator'
+    'body': """\\left | \\begin{matrix}
+    ${1:ele} & ${2:ele} \\\\
+    ${3:ele} & ${4:ele} \\\\
+    \\end{matrix} \\right |
+    """
