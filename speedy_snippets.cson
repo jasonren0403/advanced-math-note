@@ -26,6 +26,9 @@
     ${1:<group_of_equations>}
     \\\\end{cases}
     """
+  'Series in advanced math':
+    'prefix': 'math.series'
+    'body': '\\\\displaystyle \\\\sum_{n=1}^\\\\infty ${1}'
   'Denominator':
     'prefix': 'math.denominator'
     'body': """\\\\left | \\\\begin{matrix}
