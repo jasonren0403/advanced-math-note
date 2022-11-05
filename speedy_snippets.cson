@@ -26,6 +26,9 @@
     ${1:<group_of_equations>}
     \\\\end{cases}
     """
+  'double limit':
+    'prefix': 'math.lim.2nd'
+    'body': '\\\\lim_{(x,y) \\\\to (0,0)}'
   'Series in advanced math':
     'prefix': 'math.series'
     'body': '\\\\displaystyle \\\\sum_{n=1}^\\\\infty ${1}'
