@@ -20,6 +20,9 @@
   'derivate of...':
     'prefix': 'math.deriv.x'
     'body': '\\\\mathrm d${1:<variable>}'
+  'partial derivate of...':
+    'prefix': 'math.partial.x'
+    'body': '\\\\partial ${1:<variable>}'
   'grouped equation':
     'prefix': 'math.group'
     'body': """\\\\begin{cases}
