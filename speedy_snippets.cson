@@ -42,3 +42,6 @@
     ${3:ele} & ${4:ele} \\\\\\\\
     \\\\end{matrix} \\\\right |
     """
+  'Gradient':
+    'prefix': 'gradient'
+    'body': '\\\\operatorname{grad}'
